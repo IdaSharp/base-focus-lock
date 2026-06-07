@@ -48,6 +48,10 @@ export function FocusDashboard() {
     error: connectError,
     isPending: isConnectPending,
   } = useConnect();
+  const walletConnectors = useMemo(
+    () => getUniqueWalletConnectors(connectors),
+    [connectors],
+  );
   const { disconnect } = useDisconnect();
   const { switchChain, isPending: isSwitchPending } = useSwitchChain();
   const {
@@ -198,7 +202,7 @@ export function FocusDashboard() {
 
           {walletMenuOpen ? (
             <WalletMenu
-              connectors={connectors}
+              connectors={walletConnectors}
               isConnected={isConnected}
               activeConnectorName={connector?.name}
               isPending={isConnectPending}
@@ -626,4 +630,21 @@ function getConnectorLabel(name: string) {
   }
 
   return name;
+}
+
+function getUniqueWalletConnectors(
+  connectors: ReturnType<typeof useConnect>["connectors"],
+) {
+  const labels = new Set<string>();
+
+  return connectors.filter((availableConnector) => {
+    const label = getConnectorLabel(availableConnector.name).toLowerCase();
+
+    if (labels.has(label)) {
+      return false;
+    }
+
+    labels.add(label);
+    return true;
+  });
 }
