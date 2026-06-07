@@ -34,16 +34,6 @@ export const config = createConfig({
         },
       },
     }),
-    injected({
-      shimDisconnect: true,
-      target: {
-        id: "browserWallet",
-        name: "Base App / Browser Wallet",
-        provider(window) {
-          return window?.ethereum;
-        },
-      },
-    }),
     coinbaseWallet({
       appName: "Base Focus Lock",
       preference: "all",
