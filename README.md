@@ -51,3 +51,10 @@ Deploy the contract located at:
 
 ```text
 contracts/BaseFocusLock.sol
+```
+
+After deployment, set the deployed contract address in your environment configuration:
+
+```bash
+NEXT_PUBLIC_BASE_FOCUS_LOCK_ADDRESS=0xYourContractAddress
+```
