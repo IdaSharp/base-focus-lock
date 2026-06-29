@@ -74,3 +74,11 @@ The file currently includes:
 ```html
 <meta name="base:app_id" content="basefocuslock" />
 ```
+
+Before production verification, replace `basefocuslock` with the value provided by base.dev.
+
+## ERC-8021 Attribution
+
+The ERC-8021 attribution suffix is configured in:
+
+```text
