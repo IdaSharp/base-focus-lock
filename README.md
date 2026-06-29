@@ -13,3 +13,11 @@ BaseFocusLock is designed to keep the app small and direct.
 It uses Wagmi for wallet connections and contract writes.
 
 The main onchain action is `lockFocus()`.
+
+Each `lockFocus()` write includes an ERC-8021 attribution suffix through `dataSuffix`.
+
+## Features
+
+- Minimal Base Mini App experience
+- Onchain focus intent contract
+- Direct Wagmi integration
