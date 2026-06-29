@@ -21,3 +21,9 @@ Each `lockFocus()` write includes an ERC-8021 attribution suffix through `dataSu
 - Minimal Base Mini App experience
 - Onchain focus intent contract
 - Direct Wagmi integration
+- Support for injected wallets
+- Support for external Coinbase Wallet
+- ERC-8021 attribution suffix support
+- No RainbowKit dependency
+- No WalletConnect dependency
+- No rewards, points, invites, payments, or leaderboards
