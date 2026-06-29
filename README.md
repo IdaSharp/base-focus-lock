@@ -89,3 +89,10 @@ The project defines:
 
 ```ts
 export const BUILDER_CODE = "";
+```
+
+Leave this value blank for the first deployment.
+
+After base.dev verification, set the builder code in `BUILDER_CODE`.
+
+Every `lockFocus()` write explicitly includes `dataSuffix`.
