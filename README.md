@@ -111,3 +111,11 @@ The app intentionally avoids additional wallet UI frameworks.
 ## Running the App
 
 After installing dependencies and configuring the contract address, start the development server with the project鈥檚 configured script.
+
+For example:
+
+```bash
+npm run dev
+```
+
+Then open the local development URL shown in your terminal.
