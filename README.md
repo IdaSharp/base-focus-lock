@@ -36,3 +36,11 @@ Clone the repository:
 git clone https://github.com/IdaSharp/base-focus-lock.git
 cd base-focus-lock
 ```
+
+Install dependencies using the package manager used by the project.
+
+For example:
+
+```bash
+npm install
+```
