@@ -44,3 +44,10 @@ For example:
 ```bash
 npm install
 ```
+
+## Contract Setup
+
+Deploy the contract located at:
+
+```text
+contracts/BaseFocusLock.sol
