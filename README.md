@@ -27,3 +27,12 @@ Each `lockFocus()` write includes an ERC-8021 attribution suffix through `dataSu
 - No RainbowKit dependency
 - No WalletConnect dependency
 - No rewards, points, invites, payments, or leaderboards
+
+## Repository
+
+Clone the repository:
+
+```bash
+git clone https://github.com/IdaSharp/base-focus-lock.git
+cd base-focus-lock
+```
