@@ -142,3 +142,11 @@ Before publishing the Mini App:
 ## Notes
 
 BaseFocusLock is intentionally minimal.
+
+Keep configuration values explicit and review them before deployment.
+
+If the contract address changes, update the environment configuration and redeploy the web app.
+
+If the Base app identifier changes, update the metadata in `app/layout.tsx`.
+
+If the builder code changes, update `lib/wagmi.ts` before publishing.
