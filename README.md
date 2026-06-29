@@ -96,3 +96,11 @@ Leave this value blank for the first deployment.
 After base.dev verification, set the builder code in `BUILDER_CODE`.
 
 Every `lockFocus()` write explicitly includes `dataSuffix`.
+
+## Wallet Support
+
+This app uses Wagmi directly.
+
+Supported connectors are:
+
+- `injected()` for Base App, MetaMask, OKX, and browser-injected wallets
