@@ -135,3 +135,10 @@ Before publishing the Mini App:
 - Confirm the contract is deployed on the intended Base network.
 - Confirm `NEXT_PUBLIC_BASE_FOCUS_LOCK_ADDRESS` points to the deployed contract.
 - Update the `base:app_id` metadata value in `app/layout.tsx`.
+- Complete base.dev verification.
+- Set `BUILDER_CODE` in `lib/wagmi.ts` after verification.
+- Confirm `lockFocus()` writes include the expected `dataSuffix`.
+
+## Notes
+
+BaseFocusLock is intentionally minimal.
