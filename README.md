@@ -104,3 +104,10 @@ This app uses Wagmi directly.
 Supported connectors are:
 
 - `injected()` for Base App, MetaMask, OKX, and browser-injected wallets
+- `coinbaseWallet()` for external Coinbase Wallet
+
+The app intentionally avoids additional wallet UI frameworks.
+
+## Running the App
+
+After installing dependencies and configuring the contract address, start the development server with the project鈥檚 configured script.
