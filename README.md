@@ -119,3 +119,11 @@ npm run dev
 ```
 
 Then open the local development URL shown in your terminal.
+
+## Usage
+
+1. Deploy `contracts/BaseFocusLock.sol`.
+2. Set `NEXT_PUBLIC_BASE_FOCUS_LOCK_ADDRESS`.
+3. Start the web app.
+4. Connect a supported wallet.
+5. Use the app to call `lockFocus()`.
