@@ -82,3 +82,10 @@ Before production verification, replace `basefocuslock` with the value provided 
 The ERC-8021 attribution suffix is configured in:
 
 ```text
+lib/wagmi.ts
+```
+
+The project defines:
+
+```ts
+export const BUILDER_CODE = "";
