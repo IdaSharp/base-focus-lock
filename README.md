@@ -58,3 +58,11 @@ After deployment, set the deployed contract address in your environment configur
 ```bash
 NEXT_PUBLIC_BASE_FOCUS_LOCK_ADDRESS=0xYourContractAddress
 ```
+
+Replace `0xYourContractAddress` with the actual deployed contract address.
+
+## Base App Configuration
+
+The app metadata is defined in:
+
+```text
