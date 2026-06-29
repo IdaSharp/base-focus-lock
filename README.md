@@ -127,3 +127,11 @@ Then open the local development URL shown in your terminal.
 3. Start the web app.
 4. Connect a supported wallet.
 5. Use the app to call `lockFocus()`.
+
+## Production Checklist
+
+Before publishing the Mini App:
+
+- Confirm the contract is deployed on the intended Base network.
+- Confirm `NEXT_PUBLIC_BASE_FOCUS_LOCK_ADDRESS` points to the deployed contract.
+- Update the `base:app_id` metadata value in `app/layout.tsx`.
