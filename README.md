@@ -66,3 +66,11 @@ Replace `0xYourContractAddress` with the actual deployed contract address.
 The app metadata is defined in:
 
 ```text
+app/layout.tsx
+```
+
+The file currently includes:
+
+```html
+<meta name="base:app_id" content="basefocuslock" />
+```
